@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grafite no Brasil: Arte Urbana e Expressão Cultural</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+</head>
+<body>
+    <!-- Link para pular para o conteúdo principal -->
+    <a href="#main-content" class="skip-link">Pular para o conteúdo principal</a>
+
+    <!-- Cabeçalho com navegação -->
+    <header role="banner">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo" role="heading" aria-level="1">
+                    Grafite Brasileiro
+                </div>
+                <nav role="navigation" aria-label="Menu principal">
+                    <ul>
+                        <li><a href="#sobre" tabindex="0">Sobre</a></li>
+                        <li><a href="#artistas" tabindex="0">Artistas</a></li>
+                        <li><a href="#galeria" tabindex="0">Galeria</a></li>
+                        <li><a href="#links" tabindex="0">Links Úteis</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <main id="main-content" role="main" tabindex="-1">
+
+        <!-- Seção Hero -->
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="container">
+                <h1 id="hero-title" tabindex="0">Grafite no Brasil: Arte Urbana e Expressão Cultural</h1>
+                <p>Conheça a rica história do grafite brasileiro, seus principais artistas e sua importância como forma de expressão cultural nas cidades do país.</p>
+            </div>
+        </section>
+
+        <div class="container">
+            <!-- Seção Sobre -->
+            <section id="sobre" aria-labelledby="sobre-title">
+                <h2 id="sobre-title" tabindex="0">Sobre o Grafite Brasileiro</h2>
+                <p>O grafite no Brasil surgiu na década de 1970, influenciado pelo movimento hip-hop norte-americano, mas rapidamente desenvolveu características próprias, tornando-se uma forma única de expressão artística urbana.</p>
+                <p>Das periferias aos centros urbanos, o grafite brasileiro transformou muros, viadutos e fachadas em verdadeiras galerias a céu aberto, refletindo a diversidade cultural, as lutas sociais e a criatividade do povo brasileiro.</p>
+            </section>
+
+            <!-- Seção Artistas -->
+            <section id="artistas" aria-labelledby="artistas-title">
+                <h2 id="artistas-title" tabindex="0">Artistas Destacados</h2>
+                <p>O Brasil é berço de diversos artistas do grafite que ganharam reconhecimento nacional e internacional por seu trabalho inovador e expressivo.</p>
+                
+                <div class="cards-container">
+                    <!-- Os Gêmeos -->
+                    <div class="card" tabindex="0" role="article" aria-labelledby="artist1-title" 
+                         aria-describedby="artist1-desc artist1-obras">
+                        <div class="card-img-gemeos">
+                            <img src="data:image/svg+xml;utf8,<svg xmlns='' width='400' height='200' viewBox='0 0 400 200'><rect width='400' height='200' fill='%23f1c40f'/><text x='50%' y='50%' font-family='Arial' font-size='18' fill='%232c3e50' text-anchor='middle'>Os Gêmeos - Arte característica</text></svg>" 
+                                 alt="">
+                            <div class="artist-badge">São Paulo</div>
+                        </div>
+                        <div class="card-content">
+                            <h3 id="artist1-title" tabindex="0">Os Gêmeos</h3>
+                            <p id="artist1-desc">Irmãos gêmeos Otávio e Gustavo Pandolfo, conhecidos mundialmente por seus personagens amarelos de olhos fechados e narrativas oníricas que misturam elementos da cultura brasileira com imaginário pessoal.</p>
+                            
+                            <button class="btn" aria-expanded="false" aria-controls="artist1-details" 
+                                    aria-describedby="artist1-instructions">
+                                Ver obras
+                            </button>
+                            <span id="artist1-instructions" class="visually-hidden">
+                                Pressione Enter ou Espaço para expandir e ver descrições das obras de Os Gêmeos
+                            </span>
+                            
+                            <div id="artist1-details" class="visually-hidden" role="region" aria-labelledby="artist1-title">
+                                <div class="expanded-content">
+                                    <div class="obras-section">
+                                        <h4 tabindex="0">Algumas de suas obras são:</h4>
+                                        
+                                        <div class="obra-item" tabindex="0" role="article" 
+                                             aria-labelledby="obra1-title" aria-describedby="obra1-desc">
+                                            <h5 id="obra1-title">Mural em Nova York</h5>
+                                            <p id="obra1-desc">Intervenção no bairro do Bowery que se tornou um marco do grafite brasileiro no exterior, apresentando suas icônicas figuras amarelas interagindo com a arquitetura urbana nova-iorquina.</p>
+                                        </div>
+                                        
+                                        <div class="obra-item" tabindex="0" role="article" 
+                                             aria-labelledby="obra2-title" aria-describedby="obra2-desc">
+                                            <h5 id="obra2-title">"O Mundo Mágico" - Lisboa</h5>
+                                            <p id="obra2-desc">Grande mural em Portugal que representa o universo lúdico característico dos artistas, com criaturas fantásticas e elementos que dialogam com a cultura local portuguesa.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Eduardo Kobra -->
+                    <div class="card" tabindex="0" role="article" aria-labelledby="artist2-title"
+                         aria-describedby="artist2-desc artist2-obras">
+                        <div class="card-img-kobra">
+                            <img src="data:image/svg+xml;utf8,<svg xmlns='ananda nahu' width='400' height='200' viewBox='0 0 400 200'><rect width='400' height='200' fill='%23e74c3c'/><text x='50%' y='50%' font-family='Arial' font-size='18' fill='white' text-anchor='middle'>Eduardo Kobra - Estilo colorido</text></svg>" 
+                                 alt="">
+                            <div class="artist-badge">São Paulo</div>
+                        </div>
+                        <div class="card-content">
+                            <h3 id="artist2-title" tabindex="0">Eduardo Kobra</h3>
+                            <p id="artist2-desc">Artista paulistano reconhecido internacionalmente por seus enormes murais realistas com cores vibrantes em padrões geométricos, frequentemente retratando personalidades históricas e temas ambientais.</p>
+                            
+                            <button class="btn" aria-expanded="false" aria-controls="artist2-details" 
+                                    aria-describedby="artist2-instructions">
+                                Ver obras
+                            </button>
+                            <span id="artist2-instructions" class="visually-hidden">
+                                Pressione Enter ou Espaço para expandir e ver descrições das obras de Eduardo Kobra
+                            </span>
+                            
+                            <div id="artist2-details" class="visually-hidden" role="region" aria-labelledby="artist2-title">
+                                <div class="expanded-content">
+                                    <div class="obras-section">
+                                        <h4 tabindex="0">Algumas de suas obras são:</h4>
+                                        
+                                        <div class="obra-item" tabindex="0" role="article"
+                                             aria-labelledby="obra3-title" aria-describedby="obra3-desc">
+                                            <h5 id="obra3-title">"Etnias" - Olimpíadas Rio 2016</h5>
+                                            <p id="obra3-desc">Considerado o maior grafite do mundo pelo Guinness Book, este mural de 3.000m² representa cinco etnias de diferentes continentes, simbolizando a união dos povos através do esporte.</p>
+                                        </div>
+                                        
+                                        <div class="obra-item" tabindex="0" role="article"
+                                             aria-labelledby="obra4-title" aria-describedby="obra4-desc">
+                                            <h5 id="obra4-title">Série "Olhares"</h5>
+                                            <p id="obra4-desc">Conjunto de obras que retratam personalidades históricas como Gandhi, Mandela e Princess Diana, sempre com seu estilo característico de cores vibrantes e padrões geométricos que formam os rostos.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Ananda Nahú -->
+                    <div class="card" tabindex="0" role="article" aria-labelledby="artist3-title"
+                         aria-describedby="artist3-desc artist3-obras">
+                        <div class="card-img-ananda">
+                            <img src="data:image/svg+xml;utf8,<svg xmlns='' width='400' height='200' viewBox='0 0 400 200'><rect width='400' height='200' fill='%233498db'/><text x='50%' y='50%' font-family='Arial' font-size='18' fill='white' text-anchor='middle'>Ananda Nahú - Arte feminina</text></svg>" 
+                                 alt="">
+                            <div class="artist-badge">Bahia</div>
+                        </div>
+                        <div class="card-content">
+                            <h3 id="artist3-title" tabindex="0">Ananda Nahú</h3>
+                            <p id="artist3-desc">Artista curitibana que se destaca por suas figuras femininas delicadas e poéticas, frequentemente integradas com elementos da natureza, explorando temas como afetos, memória e conexões humanas.</p>
+                            
+                            <button class="btn" aria-expanded="false" aria-controls="artist3-details" 
+                                    aria-describedby="artist3-instructions">
+                                Ver obras
+                            </button>
+                            <span id="artist3-instructions" class="visually-hidden">
+                                Pressione Enter ou Espaço para expandir e ver descrições das obras de Ananda Nahú
+                            </span>
+                            
+                            <div id="artist3-details" class="visually-hidden" role="region" aria-labelledby="artist3-title">
+                                <div class="expanded-content">
+                                    <div class="obras-section">
+                                        <h4 tabindex="0">Algumas de suas obras são:</h4>
+                                        
+                                        <div class="obra-item" tabindex="0" role="article"
+                                             aria-labelledby="obra5-title" aria-describedby="obra5-desc">
+                                            <h5 id="obra5-title">"Conexão Natural" - Curitiba</h5>
+                                            <p id="obra5-desc">Mural que representa a integração entre a figura feminina e a flora brasileira, explorando a relação simbiótica entre seres humanos e natureza através de cores suaves e formas orgânicas.</p>
+                                        </div>
+                                        
+                                        <div class="obra-item" tabindex="0" role="article"
+                                             aria-labelledby="obra6-title" aria-describedby="obra6-desc">
+                                            <h5 id="obra6-title">Série "Afetos"</h5>
+                                            <p id="obra6-desc">Conjunto de obras que investiga as relações humanas e os vínculos afetivos, representando figuras femininas em momentos de introspecção e conexão com seu ambiente e memórias.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Resto do código similar para Galeria e Links Úteis -->
+            <!-- Seção Galeria -->
+            <section id="galeria" aria-labelledby="galeria-title">
+                <h2 id="galeria-title" tabindex="0">Galeria de Obras</h2>
+                <p>Explore uma seleção de obras representativas do grafite brasileiro em diferentes cidades e contextos.</p>
+                
+                <div class="gallery">
+                    <div class="gallery-item-sao" tabindex="0" role="img" aria-label="Mural colorido em São Paulo representando cena urbana">
+                        <img src="data:image/svg+xml;utf8,<svg xmlns='' width='250' height='200' viewBox='0 0 250 200'><rect width='250' height='200' fill='%23e74c3c'/><text x='50%' y='50%' font-family='Arial' font-size='14' fill='white' text-anchor='middle'>Grafite em São Paulo</text></svg>" 
+                             alt="Mural colorido no centro de São Paulo com temas urbanos e sociais">
+                    </div>
+                    <div class="gallery-item-rio" tabindex="0" role="img" aria-label="Grafite no Rio de Janeiro com tema de preservação ambiental">
+                        <img src="data:image/svg+xml;utf8,<svg xmlns='' width='250' height='200' viewBox='0 0 250 200'><rect width='250' height='200' fill='%233498db'/><text x='50%' y='50%' font-family='Arial' font-size='14' fill='white' text-anchor='middle'>Grafite no Rio</text></svg>" 
+                             alt="Mural colorido no Rio de Janeiro com diversos desenhos abstratos">
+                    </div>
+                    <div class="gallery-item-salvador" tabindex="0" role="img" aria-label="Obra em Salvador com influências africanas">
+                        <img src="data:image/svg+xml;utf8,<svg xmlns='' width='250' height='200' viewBox='0 0 250 200'><rect width='250' height='200' fill='%23f1c40f'/><text x='50%' y='50%' font-family='Arial' font-size='14' fill='%232c3e50' text-anchor='middle'>Grafite em Salvador</text></svg>" 
+                             alt="Mural em Salvador misturando capoeira em paneis artisticos">
+                    </div>
+                    <div class="gallery-item-curitiba" tabindex="0" role="img" aria-label="Intervenção artística em Curitiba com formas geométricas">
+                        <img src="data:image/svg+xml;utf8,<svg xmlns='' width='250' height='200' viewBox='0 0 250 200'><rect width='250' height='200' fill='%2327ae60'/><text x='50%' y='50%' font-family='Arial' font-size='14' fill='white' text-anchor='middle'>Grafite em Curitiba</text></svg>" 
+                             alt="Intervenção urbana em Curitiba utilizando formas geométricas e cores vibrantes">
+                    </div>
+                </div>
+            </section>
+
+            <!-- Seção Links Úteis -->
+            <section id="links" aria-labelledby="links-title">
+                <h2 id="links-title" tabindex="0">Links Úteis</h2>
+                <p>Explore mais sobre o grafite brasileiro através desses recursos online:</p>
+                
+                <ul role="list" aria-label="Lista de links úteis sobre grafite brasileiro">
+                    <li><a href="https://www.instagram.com/explore/tags/grafitebrasil/" target="_blank" tabindex="0" aria-label="Hashtag Grafite Brasil no Instagram, abre em nova janela">#GrafiteBrasil no Instagram</a> - Galeria de obras atuais</li>
+                    <li><a href="https://www.museudograffiti.com/" target="_blank" tabindex="0" aria-label="Museu do Graffiti, abre em nova janela">Museu do Graffiti</a> - Instituição dedicada à preservação da arte urbana</li>
+                    <li><a href="https://streetartbrasil.com.br/" target="_blank" tabindex="0" aria-label="Street Art Brasil, abre em nova janela">Street Art Brasil</a> - Portal sobre arte urbana no país</li>
+                    <li><a href="https://www.bienal.org/" target="_blank" tabindex="0" aria-label="Bienal de Street Art, abre em nova janela">Bienal de Street Art</a> - Evento que reúne artistas urbanos</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+
+    <!-- Rodapé -->
+    <footer role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <p>Grafite Brasileiro - Expressão Cultural Urbana</p>
+                <div class="social-links">
+                    <a href="#" tabindex="0" aria-label="Siga-nos no Instagram">Instagram</a>
+                    <a href="#" tabindex="0" aria-label="Siga-nos no Facebook">Facebook</a>
+                    <a href="#" tabindex="0" aria-label="Siga-nos no YouTube">YouTube</a>
+                </div>
+                <div class="copyright">
+                    &copy; 2023 - Página desenvolvida para fins educacionais sobre acessibilidade web
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Script para melhorar a acessibilidade
+        document.addEventListener('DOMContentLoaded', function() {
+            // Adicionar navegação hierárquica por títulos
+            const headings = document.querySelectorAll('h1, h2, h3, h4');
+            
+            headings.forEach(heading => {
+                heading.addEventListener('focus', function() {
+                    // Anunciar o nível do título para leitores de tela
+                    const level = this.tagName.charAt(1);
+                    const text = this.textContent;
+                    announceToScreenReader('Título nível ' + level + ': ' + text);
+                });
+            });
+            
+            // Adicionar leitura automática das descrições dos artistas
+            const artistCards = document.querySelectorAll('.card[aria-describedby]');
+            
+            artistCards.forEach(card => {
+                card.addEventListener('focus', function() {
+                    const artistName = this.querySelector('h3').textContent;
+                    const artistDesc = this.querySelector('p').textContent;
+                    
+                    // Pequeno delay para não sobrecarregar o leitor de tela
+                    setTimeout(() => {
+                        announceToScreenReader('Artista: ' + artistName + '. ' + artistDesc);
+                    }, 500);
+                });
+            });
+            
+            // Adicionar leitura automática das obras
+            const obraItems = document.querySelectorAll('.obra-item[aria-describedby]');
+            
+            obraItems.forEach(obra => {
+                obra.addEventListener('focus', function() {
+                    const obraTitle = this.querySelector('h5').textContent;
+                    const obraDesc = this.querySelector('p').textContent;
+                    
+                    setTimeout(() => {
+                        announceToScreenReader('Obra: ' + obraTitle + '. ' + obraDesc);
+                    }, 500);
+                });
+            });
+            
+            // Adicionar funcionalidade aos botões de expandir
+            const buttons = document.querySelectorAll('.btn[aria-expanded]');
+            
+            buttons.forEach(button => {
+                button.addEventListener('click', function() {
+                    const expanded = this.getAttribute('aria-expanded') === 'true';
+                    const targetId = this.getAttribute('aria-controls');
+                    const target = document.getElementById(targetId);
+                    
+                    // Atualizar estado do botão
+                    this.setAttribute('aria-expanded', !expanded);
+                    
+                    if (target) {
+                        if (expanded) {
+                            // Recolher conteúdo
+                            target.classList.add('visually-hidden');
+                            // Anunciar mudança para leitores de tela
+                            announceToScreenReader('Descrições das obras recolhidas');
+                        } else {
+                            // Expandir conteúdo
+                            target.classList.remove('visually-hidden');
+                            // Anunciar mudança para leitores de tela
+                            const artistName = this.closest('.card').querySelector('h3').textContent;
+                            announceToScreenReader('Descrições das obras de ' + artistName + ' expandidas. Use Tab para navegar pelas informações das obras.');
+                            
+                            // Focar no primeiro título das obras
+                            setTimeout(() => {
+                                const firstHeading = target.querySelector('h4');
+                                if (firstHeading) {
+                                    firstHeading.focus();
+                                }
+                            }, 100);
+                        }
+                    }
+                });
+                
+                // Permitir ativação com Enter ou Espaço
+                button.addEventListener('keydown', function(e) {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                        e.preventDefault();
+                        this.click();
+                    }
+                });
+            });
+            
+            // Adicionar navegação por teclado para cards
+            const cards = document.querySelectorAll('.card[tabindex]');
+            
+            cards.forEach(card => {
+                card.addEventListener('keydown', function(e) {
+                    if (e.key === 'Enter') {
+                        e.preventDefault();
+                        // Simular clique no botão dentro do card
+                        const button = this.querySelector('.btn');
+                        if (button) button.click();
+                    }
+                });
+            });
+            
+            // Adicionar interação para itens da galeria
+            const galleryItems = document.querySelectorAll('.gallery-item');
+            galleryItems.forEach(item => {
+                item.addEventListener('keydown', function(e) {
+                    if (e.key === 'Enter') {
+                        const altText = this.querySelector('img').getAttribute('alt');
+                        announceToScreenReader('Imagem da galeria: ' + altText);
+                    }
+                });
+            });
+            
+            // Função para anunciar mudanças para leitores de tela
+            function announceToScreenReader(message) {
+                const liveRegion = document.querySelector('[aria-live]');
+                if (liveRegion) {
+                    liveRegion.textContent = message;
+                    setTimeout(() => {
+                        liveRegion.textContent = '';
+                    }, 4000);
+                }
+            }
+            
+            // Adicionar anúncio de carregamento para leitores de tela
+            setTimeout(() => {
+                announceToScreenReader('Página carregada completamente. Ao focar nos cartões dos artistas, o leitor de tela lerá automaticamente as descrições completas. Use Tab para navegar pela hierarquia de títulos e pelas obras dos artistas.');
+            }, 1000);
+        });
+    </script>
+</body>
+</html>
